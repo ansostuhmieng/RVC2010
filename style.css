@@ -1,0 +1,901 @@
+/*
+Theme Name: Rock View 2010
+Theme URI: http://rockviewchurch.org/
+Description: First run of the Rock View Church Website
+Version: 0.1
+Author: Andrew Rodman
+Author URI: http://pathofservice.net/
+Tags: blue, fixed width, two columns, widgets
+*/
+
+body
+{
+	margin: 0px;
+	background-color: #FFF;
+	font-family: calibri, sans-serif;
+	
+	background-image: url(chrome/bg2.jpg);
+	background-repeat: repeat-y;
+	background-position: center top;
+}
+
+#headChrome
+{
+	background-color: transparent;
+	height: 25em;
+	/*
+	filter:alpha(opacity=50);
+	-moz-opacity:0.5;
+	-khtml-opacity: 0.5;
+	opacity: 0.5;  */
+	
+	background-image: url(images/header-wide-transparent.png);
+	background-repeat: repeat-x;
+	/*background-color: #000;*/
+}
+
+#bodyChrome
+{
+	height: 10em;
+	background-image: url(images/tint2.png);
+	background-repeat: repeat-x;
+}
+
+#widthContainer
+{
+	width: 60em;
+	margin: auto;
+	
+	position:relative;
+	top: -35em;
+	
+	background-image: url(images/header-wide-transparent2.png);	
+	background-repeat:no-repeat;
+}
+
+.childrenWidth
+{
+	
+}
+
+#head
+{
+	padding: 1em;
+	margin-top: 1em;
+	margin-bottom: 2em;
+	
+/*
+	background-color: #EEE;
+	padding-top: 16px;
+
+	background-color: #393939;
+	height: 120px;
+
+	-moz-border-radius-topleft: 5px; 
+	-webkit-border-top-left-radius: 5px; 
+	-moz-border-radius-topright: 5px; 
+	-webkit-border-top-right-radius: 5px; 	
+*/		
+	/*border-top: 1px solid #393939;		
+	
+	background-image: url('images/bluredsky.png');
+	background-repeat: repeat-x;*/
+	
+}
+
+#logoBox
+{
+	background-image: url(images/logo_text3.png);
+	background-repeat: no-repeat;
+	width: 524px;
+	height: 2.5em;
+	
+	display:block;
+	text-decoration:none; 
+	margin-top:0.5em; 
+	margin-left:0.5em;	
+}
+
+
+#navCenter
+{
+	margin-left: auto;
+	margin-right: auto;
+	/*border-top: 1px solid #FFF;*/
+	background-color: #FFF;
+	box-shadow:0px 2px 8px #327188;
+	-webkit-box-shadow:0px 2px 8px #327188;
+	-moz-box-shadow:0px 2px 8px #327188;
+	
+	-moz-border-radius-bottomleft: 5px; 
+	-webkit-border-bottom-left-radius: 5px; 
+	-moz-border-radius-bottomright: 5px; 
+	-webkit-border-bottom-right-radius: 5px; 	
+	
+	/*border-bottom: 1px solid #75bfe2;*/
+	
+	background-image: url('images/tint1.png');
+	background-repeat: repeat-x;
+}
+
+#navBox
+{
+	text-align: left;
+	list-style-type:none;
+	margin-right: 1em;
+}
+#navigation ul
+{
+	margin-top: 1em;
+	padding: 0.5em;
+	text-align: left;
+	list-style-type:none;
+	margin-right: 1em;
+	text-align: center;
+}
+
+#navigation ul li
+{
+	display:inline;
+	font-size: 1.5em;
+	margin: 0em;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	list-style-type:none;
+	color: #FFF;
+}
+
+#navigation ul li a
+{
+	text-decoration:none;
+	color: #FFF;
+}
+
+#navigation ul li a:hover
+{
+	text-shadow: 0px 0px 1em #FFF;
+}
+
+#navigation
+{
+	
+}
+
+.navigationNextPrevious
+{
+	background-color: #FFF;
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	padding: 1em;
+}
+
+.navigationNextPrevious a
+{
+	text-decoration:none;
+}
+
+.navigationNextPrevious .alignleft
+{
+	padding: 0em !important;
+}
+
+.navigationNextPrevious .alignright
+{
+	padding: 0em !important;
+}
+
+
+#sidebar
+{
+	float:right;
+	margin-top: 1em;
+}
+
+#sidebar .box
+{
+	padding: 1em;
+	background-color: #FFF;
+	width: 15em;
+	margin-bottom: 1em;
+	
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px;
+	
+	filter:alpha(opacity=80);
+	-moz-opacity:0.80;
+	-khtml-opacity: 0.80;
+	opacity: 0.80;	
+}
+
+#sidebar  #subnav li.ancestor
+{
+	border-bottom: 1px solid #99d8e7;
+	padding-left: 0em;
+}
+
+#sidebar #subnav li
+{
+	padding-left: 0.5em;
+}
+
+#sidebar #subnav a{
+	font-size: larger;
+	text-decoration: none;
+	display:block;
+}
+
+#sidebar .box a:hover
+{
+	
+}
+
+#content
+{
+	margin-top: 1em;
+}
+
+#postContainer
+{
+	width: 42em;
+}
+
+#content .post, #content .event
+{
+	padding: 2em;
+	padding-bottom: 1em;
+	background-color: #FFF;
+
+	-moz-border-radius-topleft: 5px; 
+	-webkit-border-top-left-radius: 5px; 
+	-moz-border-radius-topright: 5px; 
+	-webkit-border-top-right-radius: 5px; 	
+}
+
+#content .childrens
+{
+	
+	
+	padding-bottom: 3em;
+	background-image: url(images/children-bg.jpg);
+	background-repeat:no-repeat;
+	background-position: bottom right;
+}
+
+#dbem-location-map {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+#content p
+{
+	margin-bottom: 1em;
+}
+
+p.nocomments
+{
+	background-color: #FFF;
+	padding: 1em;
+	color: #35cbff;
+	border-top: 1px dashed #35cbff;
+	text-align: right;
+	
+	-moz-border-radius-bottomleft: 5px; 
+	-webkit-border-bottom-left-radius: 5px; 
+	-moz-border-radius-bottomright: 5px; 
+	-webkit-border-bottom-right-radius: 5px; 
+}
+
+#content h1
+{
+	font-family: 'Droid Sans', arial, serif;
+	font-size: 2em;
+	margin-bottom: 0.25em;
+	margin-top:0em;
+	
+	color: #2e368f;
+}
+
+#content h1 a
+{
+	text-decoration: none;
+	color: #2e368f;
+}
+
+#content h2
+{
+	font-family: 'Droid Sans', arial, serif;
+	font-size: 1.5em;
+	margin-bottom: 0.25em;
+	
+	color: #2e368f;
+}
+
+#content h3
+{
+	font-family: 'Droid Sans', arial, serif;
+	font-size: 1.25em;
+	margin-bottom: 0.25em;
+	
+	color: #2e368f;
+}
+
+#content blockquote
+{
+	margin: 0.5em;
+	padding: 0.5em;
+	font-style: italic;
+}
+
+#content .entry ul
+{
+	margin-left: 1em;
+	margin-bottom: 1em;
+	list-style-type:circle;
+}
+#content .entry ul li
+{
+	list-style-type:circle;
+	margin-left: 0.25em;
+}
+
+#content .wp-caption-text
+{
+	font-size: smaller;
+	text-align: center;
+}
+
+.signature
+{
+	font-family: 'Reenie Beanie', arial, serif;
+	font-size: x-large;
+	float:right;
+	text-align: right;
+	
+	position:relative;
+	top: -1em;
+	
+	text-shadow: #FFF 0px 0px 3px;
+	
+	-webkit-transform: rotate(-5deg);
+	-moz-transform: rotate(-5deg);
+	-o-transform: rotate (-5deg);		
+}
+
+.postDate
+{
+	float:right;
+	font-size: small;
+	color: #888;
+	
+	text-shadow: 0px 0px 2px rgba(0,0,0,0);
+	
+	position:relative;
+	top: -1em;
+	right: -1em;
+	
+}
+
+#respond
+{
+	border-top:1px solid #EEE;
+	background-color: #FFF;
+	
+	-moz-border-radius-bottomleft: 5px; 
+	-webkit-border-bottom-left-radius: 5px; 
+	-moz-border-radius-bottomright: 5px; 
+	-webkit-border-bottom-right-radius: 5px; 	
+	
+	padding: 2em;
+}
+
+.navigation
+{
+	float:right;
+	
+	position: relative;
+	top: -1.5em;
+	right: -1.5em;
+	
+}
+
+.navigation a
+{
+	text-decoration:none;
+	color: #888;
+}
+
+
+#commentList
+{
+	border-top:1px solid #EEE;
+	background-color: #FFF;	
+	/*padding-bottom: 2em;*/
+}
+
+#commentList h2
+{
+	padding: 1em;
+	display:none;
+}
+
+#commentList ol
+{
+	padding-bototm: 2em;
+}
+
+#commentList ol li
+{
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+#commentList .even
+{
+	border-left: 8px solid #35cbff;
+	border-bottom: 1px dashed #35cbff;
+}
+
+#commentList .odd
+{
+	border-left: 8px solid #2e368f;
+	border-bottom: 1px dashed #2e368f;
+}
+
+
+.postFoot
+{
+	
+	margin-bottom: 1em;
+	background-color: #FFF;
+	
+	-moz-border-radius-bottomleft: 5px; 
+	-webkit-border-bottom-left-radius: 5px; 
+	-moz-border-radius-bottomright: 5px; 
+	-webkit-border-bottom-right-radius: 5px; 	
+	
+	padding: 0.25em;
+	padding-left: 0.5em;	
+		
+	filter:alpha(opacity=80);
+	-moz-opacity:0.80;
+	-khtml-opacity: 0.80;
+	opacity: 0.80;	
+}
+
+.postFoot a
+{
+	text-decoration:none;
+	color: #333;
+}
+
+#foot
+{
+	clear:both;
+
+	margin-top: 1em;
+	padding: 0em;
+	
+	border-top: 3px solid #24AC39;
+	
+	background-color: #FFFFFF;
+	
+	-moz-border-radius-topleft: 5px; 
+	-webkit-border-top-left-radius: 5px; 
+	-moz-border-radius-topright: 5px; 
+	-webkit-border-top-right-radius: 5px; 	
+}
+
+#foot #footNav a
+{
+	text-decoration: none;
+	color: #333;
+}
+
+#foot #footNav a:hover
+{
+	text-decoration: underline;
+}
+
+#foot #contact
+{
+	background-image: url(images/map3.png);
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px;
+	padding: 1em;
+}
+
+
+#foot2
+{
+	background-color: #24AC39;
+	padding: 0.5em;
+		
+	-moz-border-radius-bottomleft: 5px; 
+	-webkit-border-bottom-left-radius: 5px; 
+	-moz-border-radius-bottomright: 5px; 
+	-webkit-border-bottom-right-radius: 5px; 		
+	font-size: smaller;
+	
+	color: #FFF;
+	text-align:right;
+}
+
+#foot2 a
+{
+	color: #FFF;
+}
+
+/*Slide Deck Styles*/
+
+.slideDeckBox
+{
+	margin-top: 1em;
+	padding: 1em;
+	background-color: #FFF;
+	
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px;
+}
+
+
+/* End Slide Deck */
+
+
+/* Begin Twitter in Sidebar */
+#twitter_div h3
+{
+	font-family: 'Droid Sans', arial, serif;
+	font-size: 1.25em;
+	margin-bottom: 0.25em;
+	
+	color: #2e368f;
+}
+
+#twitter_div ul li
+{
+	margin-bottom: 0.5em;
+}
+
+.twitter
+{
+	border-top: 0.25em solid #35cbff;
+	border-bottom: 0.25em solid #35cbff;
+}
+
+/*end twitter */
+
+/* Begin Images */
+p img {
+	padding: 0;
+	max-width: 100%;
+	}
+
+/*	Using 'class="alignright"' on an image will (who would've
+	thought?!) align the image to the right. And using 'class="centered',
+	will of course center the image. This is much better than using
+	align="center", being much more futureproof (and valid) */
+
+img.centered {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+img.alignright {
+	padding: 4px;
+	margin: 0 0 2px 7px;
+	display: inline;
+	}
+
+img.alignleft {
+	padding: 4px;
+	margin: 0 7px 2px 0;
+	display: inline;
+	}
+
+.alignright {
+	padding: 0em 0em 1em 1em;
+	float: right;
+	}
+
+.alignleft {
+	padding: 0em 1em 0em 1em;
+	float: left;
+	}
+/* End Images */
+
+/* category styles */
+.category-mens-ministry
+{
+	border-top: 3px solid orange;
+}
+
+.category-mens-ministry h1, .category-mens-ministry h1 a
+{
+	color: orange !important;
+}
+
+.category-rock-view-church
+{
+	border-top: 3px solid #2e3590;
+}
+
+.category-womens-ministry
+{
+	border-top: 3px solid pink;
+}
+
+.category-womens-ministry h1, .category-womens-ministry h1 a
+{
+	color: #d37681 !important;
+}
+
+.category-upcoming-event
+{
+	background-image: url(chrome/calendar.png);
+	background-repeat: no-repeat;
+	background-position: top right; 
+}
+
+/* end categories */
+
+/*begin sermon page  custom styles */
+.sermonBox
+{
+	height: 300px;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding: 2em;
+	background-color: #FFF;
+	
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px; 
+	border-radiius: 5px;
+}
+
+.mapBox
+{
+	border: 1px solid #DDD;
+	
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px; 
+	border-radiius: 5px;	
+}
+
+.seriesBox
+{
+	min-height: 300px;
+	padding: 2em;
+	background-color: #FFF;
+	border-top: 1px solid #EEE;
+}
+
+.videoBox, .mapBox
+{
+	width: 39em;
+	height: 300px;
+	background-repeat:no-repeat;
+	background-position:center; 
+}
+
+.dataBox
+{
+	width: 16em;
+	float:right;
+}
+
+.dataBox ul
+{
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px; 
+	border-radius: 5px;	
+	margin-bottom: 0.25em;
+
+	border: 1px solid #DDD;
+}
+
+.dataBox ul li.heading
+{
+	border-bottom: 1px solid #EEE;
+	color: #384c5e;
+}
+
+.dataBox ul li.taughtOn
+{
+	border-top: 1px solid #EEE;
+	color: #384c5e;
+	text-align: right;
+}
+
+.dataBox p.audioplayer_container
+{
+	margin-bottom: 0.25em !important;
+}
+
+.dataBox ul li
+{
+	padding: 0.15em;
+	padding-left: 0.25em;
+}
+
+.dataBox .downloadLink
+{
+	display:block;
+	padding: 0.25em;
+	/*background-color: #EEE;*/
+	color: #384c5e !important;
+	text-decoration:none;
+	
+	border: 1px solid #DDD;
+	
+	background-image: url(images/tint1.png);
+	background-repeat: repeat-x;		
+	
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px; 
+	border-radius: 5px;	
+	margin-bottom: 0.25em;
+}
+
+.dataBox .downloadLink:hover
+{
+	background-color: #c8e6fc;
+}
+
+/* end */ 
+
+/* ref-tagger styles */
+.lbsTooltip
+{
+	background:#FFF;
+	border: 1px solid #3cc6f7;
+	z-index: 99;
+	text-align: left;
+	text-indent: 0;
+	
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px; 
+	border-radius: 5px;		
+}
+
+.lbsTooltip div
+{
+	text-align: left;
+}
+
+.lbsTooltipHeader
+{
+	background:#3cc6f7;
+	color: #FFF !important;
+	font-weight:bold;
+	font-size:15px;
+	line-height: 18px;
+	margin: 0;
+	padding:0.5em;
+	position:relative;
+	border: 0;
+	
+	-moz-border-radius-topleft: 5px; 
+	-webkit-border-top-left-radius: 5px; 
+	-moz-border-radius-topright: 5px; 
+	-webkit-border-top-right-radius: 5px; 			
+}
+
+.lbsTooltipBody 
+{
+	padding: 1em;
+	margin:0;
+	position:relative;
+	z-index: 2;
+	border: 0;
+	line-height:16px;
+	
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px; 
+	border-radius: 5px;			
+}
+
+.lbsTooltipBody p, .lbsTooltipBody span
+{
+	display: inline;
+	color: black;
+	font-size: 14px;
+	line-height:16px;
+}
+
+.lbsTooltipFooter
+{
+	font-size:11px;
+	bottom:4px;
+	margin-top: 4px;
+	position:absolute;
+	text-align:right;
+	border: 0;
+	
+	-moz-border-radius-bottomleft: 5px; 
+	-webkit-border-bottom-left-radius: 5px; 
+	-moz-border-radius-bottomright: 5px; 
+	-webkit-border-bottom-right-radius: 5px; 			
+}
+
+.lbsTooltipFooter a:link, .lbsTooltipFooter a:visited, .lbsTooltipFooter a:hover 
+{
+	color: blue;
+	text-decoration: underline;
+	font-weight: normal;
+	font-size:11px;
+}
+
+.lbsTooltipFooter div
+{
+	text-align:right;
+}
+
+
+.lbsTooltipBody .ch-ref, .lbsTooltipBody .verse-ref
+{
+	font-size: 85%;
+	top: -1px;
+	position: relative;
+}
+
+.lbsTooltipBody .ch-ref
+{
+	font-weight: bold;
+}
+
+.lbsTooltipBody .verse-ref
+{
+	color: dimgray;
+}
+
+.lbsTooltip, .lbsTooltipBody span, .lbsTooltip a, .lbsTooltipBody p
+{
+	margin: 0;
+	padding: 0;
+}
+
+.lbsContainer
+{
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px; 
+	border-radius: 5px;		
+}
+
+.lbsLibronix img
+{
+	float: none !important;
+}
+
+
+/* end */
+
+.postcardAddress
+{
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px; 
+	border-radius: 5px;		
+	
+	background-color: #FFF; 
+	padding: 1em;
+}
+
+.postcardAddress p
+{
+	margin-bottom: 0em !important;
+}
+
+.postcardBox
+{
+	width: 39em;
+	height: 300px;
+	background-repeat:no-repeat;
+	background-position:center; 
+	
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px; 
+	border-radius: 5px;			
+}
